@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="accets/style.css">
+    <title>ToDo Web App</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>ToDo Web App</h1>
+        
+        <div class="add-task">
+            <input type="text" id="taskInput" placeholder="Add a new task...">
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        
+        <div class="tasks">
+            <div class="pending-tasks">
+                <h2>Pending Tasks</h2>
+                <ul id="pendingList"></ul>
+            </div>
+        </div>
+        <div class="completed-tasks">
+            <h2>Completed Tasks</h2>
+            <ul id="completedList"></ul>
+        </div>
+    </div>
+
+    <script src="accets/script.js"></script>
+</body>
+</html>
